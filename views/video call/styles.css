@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+}
+
+video {
+    width: 45%;
+    aspect-ratio: 16 / 9;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
